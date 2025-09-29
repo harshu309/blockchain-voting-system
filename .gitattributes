@@ -1,11 +1,11 @@
 # Auto detect text files and normalize line endings to LF
 * text=auto eol=lf
 
-# Windows-specific scripts (CRLF allowed if needed)
+# Windows-specific scripts (keep CRLF)
 *.bat text eol=crlf
 *.cmd text eol=crlf
 
-# Mark binary files to prevent Git from messing with them
+# Images and binary files (no conversion)
 *.png binary
 *.jpg binary
 *.jpeg binary
